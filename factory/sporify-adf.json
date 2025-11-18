@@ -1,0 +1,9 @@
+{
+	"name": "sporify-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "667bc84a-c4f6-4a81-9113-82c8b43e9d86",
+		"tenantId": "0c829e46-3539-4212-a0e5-411c70c4c239"
+	}
+}
