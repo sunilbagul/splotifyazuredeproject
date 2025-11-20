@@ -167,7 +167,7 @@
 				}
 			},
 			{
-				"name": "Copy data1",
+				"name": "update CDC",
 				"type": "Copy",
 				"dependsOn": [
 					{
