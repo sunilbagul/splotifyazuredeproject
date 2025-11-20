@@ -1,0 +1,12 @@
+{
+	"name": "AzureSqlSource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlspotify",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
