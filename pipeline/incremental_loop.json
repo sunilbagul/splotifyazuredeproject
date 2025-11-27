@@ -293,7 +293,7 @@
 														"value": "@{concat(item().table,'_','cdc')}",
 														"type": "Expression"
 													},
-													"file": "empty.json"
+													"file": "cdc.json"
 												}
 											}
 										],
