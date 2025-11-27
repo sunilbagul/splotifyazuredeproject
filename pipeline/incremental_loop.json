@@ -121,7 +121,7 @@
 									"parameters": {
 										"container": "bronze",
 										"folder": {
-											"value": "@item().table_cdc",
+											"value": "@{concat(item().table,'_','cdc')}",
 											"type": "Expression"
 										},
 										"file": "cdc.json"
