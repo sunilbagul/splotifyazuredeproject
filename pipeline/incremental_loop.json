@@ -293,7 +293,7 @@
 														"value": "@{concat(item().table,'_','cdc')}",
 														"type": "Expression"
 													},
-													"file": "cdc.json"
+													"file": "empty.json"
 												}
 											}
 										],
@@ -303,7 +303,10 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"container": "bronze",
-													"folder": "cdc",
+													"folder": {
+														"value": "@{item().table}_cdc",
+														"type": "Expression"
+													},
 													"file": "cdc.json"
 												}
 											}
