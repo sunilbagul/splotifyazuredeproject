@@ -341,7 +341,7 @@
 					"method": "POST",
 					"url": "https://prod-01.northcentralus.logic.azure.com:443/workflows/3774358ee9ad436fb51c42daa6209a67/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=0JzQgEUaoHECW6LkkjTV1Wv7kUP7AkuNTbA7otSsy_U",
 					"body": {
-						"value": "{\n    \"pipeline_name\" : \"@{pipeline().Pipeline}\"\",\n    \"pipeline_runid\" :\"@{pipeline().RunId}\"\"\n}",
+						"value": "{\n    \"pipeline_name\" : \"XYZ\"\",\n    \"pipeline_runid\" :\"@{pipeline().RunId}\"\"\n}",
 						"type": "Expression"
 					}
 				}
